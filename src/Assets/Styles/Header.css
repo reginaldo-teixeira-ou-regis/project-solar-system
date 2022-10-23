@@ -1,25 +1,29 @@
 .Header {
-    display: flex;
-    justify-content: center;
-    width: fit-content;
-    margin: 30px auto;
-    align-items: center;
-    height: 200px;
-    flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: center;
+  margin: 30px auto;
+  width: fit-content;
 }
 
 .Header h1 {
-    font-weight: 150;
-    text-transform: uppercase;
-    font-size: 30pt;
-    letter-spacing: 2px;
+  font-size: 30pt;
+  font-weight: 150;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .elipse {
-    border: 1px solid white;
-    width: 120.07px;
-    height: 307.45px;
-    position: absolute;
-    border-radius: 100%;
-    transform: rotate(59deg);
+  border: 1px solid white;
+  border-radius: 100%;
+  height: 307.45px;
+  position: absolute;
+  transform: rotate(59deg);
+  width: 120.07px;
+}
+
+.Header .ellipseLeak {
+  background-image: url('/src/images/background.png');
 }

@@ -1,0 +1,47 @@
+.card {
+  background-color: rgba(24, 26, 37, 0.5);
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 11.875rem;
+  width: 29.25rem;
+}
+
+.card .name {
+  align-items: center;
+  border-bottom: 1px solid white;
+  display: flex;
+  font-size: 17pt;
+  font-weight: 300;
+  height: 50%;
+  padding-left: 1.688rem;
+}
+
+.card .info {
+  align-items: center;
+  display: flex;
+  font-weight: 400;
+  height: 50%;
+  padding-left: 1.688rem;
+  padding-right: 3.375rem;
+  text-align: start;
+}
+
+.card .info p {
+  font-size: 18px;
+}
+
+.card .info img {
+  height: 18px;
+  margin-right: 15px;
+  padding-bottom: 1px;
+}
+
+.card .info .yearCountry {
+  align-items: center;
+  display: flex;
+  margin-right: auto;
+}
+
+.year {
+  margin-right: 20px;
+}

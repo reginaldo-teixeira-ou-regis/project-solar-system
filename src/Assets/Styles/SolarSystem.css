@@ -1,26 +1,26 @@
 .solarSystem {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
 }
 
 .solarSystem h2 {
-    font-weight: 260;
-    text-transform: uppercase;
+  font-weight: 260;
+  text-transform: uppercase;
 }
 
 .solarSystem .planets {
-    display: flex;
+  display: flex;
 }
 
-.solarSystem::after {
-    content: '';
-    height: 1px;
-    background-color: white;
-    position: absolute;
-    width: 100%;
-    top: 51.9%;
-    z-index: 0;
+.solarSystem:after {
+  background-color: white;
+  content: '';
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 0;
 }

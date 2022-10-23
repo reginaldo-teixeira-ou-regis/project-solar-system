@@ -1,0 +1,7 @@
+.planetCard {
+    display: grid;
+    text-align: center;
+    z-index: 1;
+    font-weight: 300;
+    align-items: end;
+}

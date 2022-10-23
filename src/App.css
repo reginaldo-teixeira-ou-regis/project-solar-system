@@ -1,5 +1,15 @@
+@font-face {
+  font-family: Epilogue;
+  font-weight: 100 1000;
+  src: url('./Assets/Fonts/Epilogue-VariableFont_wght.ttf');
+}
+
 * {
   color: white;
+  font-family: Epilogue , sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .App {

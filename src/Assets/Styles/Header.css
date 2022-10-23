@@ -1,0 +1,25 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 30px auto;
+    align-items: center;
+    height: 200px;
+    flex-direction: column;
+}
+
+.Header h1 {
+    font-weight: 150;
+    text-transform: uppercase;
+    font-size: 30pt;
+    letter-spacing: 2px;
+}
+
+.elipse {
+    border: 1px solid white;
+    width: 120.07px;
+    height: 307.45px;
+    position: absolute;
+    border-radius: 100%;
+    transform: rotate(59deg);
+}

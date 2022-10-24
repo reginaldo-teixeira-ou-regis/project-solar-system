@@ -12,8 +12,8 @@ const Planets = [
   { name: 'Vênus', image: VenusImg, width: '102px' },
   { name: 'Terra', image: TerraImg, width: '106px' },
   { name: 'Marte', image: MarteImg, width: '66px' },
-  { name: 'Júpiter', image: JupiterImg, width: '262px' },
-  { name: 'Saturno', image: SaturnoImg, width: '272.41px' },
+  { name: 'Júpiter', image: JupiterImg, width: '252px' },
+  { name: 'Saturno', image: SaturnoImg, width: '262.41px' },
   { name: 'Urano', image: Uranoimg, width: '144px' },
   { name: 'Netuno', image: Netunoimg, width: '144px' },
 ];

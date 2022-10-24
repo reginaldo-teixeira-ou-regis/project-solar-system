@@ -18,8 +18,10 @@ class MissionCard extends Component {
             <img src={ IconLocal } alt="" />
             <p className="country" data-testid="mission-country">{country}</p>
           </div>
-          <img src={ IconFlag } alt="" />
-          <p className="destination" data-testid="mission-destination">{destination}</p>
+          <div className="destinationIcon">
+            <img src={ IconFlag } alt="" />
+            <p className="destination" data-testid="mission-destination">{destination}</p>
+          </div>
         </section>
       </div>
     );

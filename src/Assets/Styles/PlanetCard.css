@@ -2,6 +2,12 @@
   align-items: end;
   display: grid;
   font-weight: 300;
+  justify-items: center;
   text-align: center;
   z-index: 1;
+}
+
+.planetCard img:hover {
+  transform: scale(1.2);
+  transition: all;
 }

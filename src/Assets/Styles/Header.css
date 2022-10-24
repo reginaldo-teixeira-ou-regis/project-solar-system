@@ -4,7 +4,7 @@
   flex-direction: column;
   height: 200px;
   justify-content: center;
-  margin: 30px auto;
+  margin: 80px auto;
   width: fit-content;
 }
 
@@ -13,6 +13,7 @@
   font-weight: 150;
   letter-spacing: 2px;
   text-transform: uppercase;
+  z-index: 1;
 }
 
 .elipse {
@@ -22,8 +23,9 @@
   position: absolute;
   transform: rotate(59deg);
   width: 120.07px;
+  z-index: 0;
 }
 
-.Header .ellipseLeak {
+h1 .ellipseLeak {
   background-image: url('/src/images/background.png');
 }

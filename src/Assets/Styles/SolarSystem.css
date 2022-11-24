@@ -12,7 +12,9 @@
 }
 
 .solarSystem .planets {
+  align-items: stretch;
   display: flex;
+  max-width: 100%;
 }
 
 .solarSystem:after {

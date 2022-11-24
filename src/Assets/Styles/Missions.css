@@ -3,9 +3,10 @@
   border-radius: 30px;
   margin: 100px auto;
   max-width: 1098px;
-  padding: 3.125rem;
+  padding: 50px;
+  padding-bottom: 80px;
   text-align: center;
-  width: fit-content;
+  width: 90%;
 }
 
 .missions h2 {
@@ -18,7 +19,7 @@
 .missions section {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
+  gap: 15px;
+  justify-content: space-evenly;
   width: 100%;
 }

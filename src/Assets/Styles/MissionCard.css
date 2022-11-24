@@ -3,17 +3,18 @@
   border: 1px solid white;
   border-radius: 10px;
   height: 11.875rem;
-  width: 29.25rem;
+  max-width: 48.5%;
+  min-width: 48.5%;
 }
 
 .card .name {
   align-items: center;
   border-bottom: 1px solid white;
   display: flex;
-  font-size: 17pt;
-  font-weight: 300;
+  font-size: 13pt;
+  font-weight: 500;
   height: 50%;
-  padding-left: 1.688rem;
+  justify-content: center;
 }
 
 .card .info {
@@ -22,36 +23,25 @@
   flex-wrap: nowrap;
   font-weight: 400;
   height: 50%;
-  padding-left: 1.688rem;
-  padding-right: 3.375rem;
+  padding: 5px;
   text-align: start;
 }
 
 .card .info p {
-  font-size: 16px;
+  font-size: 12px;
 }
 
-.card .info img {
-  height: 18px;
-  margin-right: 8px;
-  padding-bottom: 1px;
-}
-
-.card .info .yearCountry {
+.yearCountry, .destinationIcon {
   align-items: center;
   display: flex;
-  margin-right: auto;
+  gap: 5px;
+  max-width: 185px;
 }
 
 .year {
-  margin-right: 30px;
+  padding-right: 15px;
 }
 
-.destination {
-  width: min-content;
-}
-
-.destinationIcon {
-  align-items: center;
-  display: flex;
+.country {
+  width: 150px auto;
 }
